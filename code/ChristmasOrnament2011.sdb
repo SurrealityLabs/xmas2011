@@ -121,7 +121,7 @@
 [v ___tmul `(um  1 e 3 0 ]
 "3 C:\Program Files\HI-TECH Software\PICC\9.83\sources\wmul.c
 [v ___wmul `(ui  1 e 2 0 ]
-"15 C:\projects-hg\christmasornament2011\code\main.c
+"17 C:\projects-hg\christmasornament2011\code\main.c
 [v _main `(v  1 e 0 0 ]
 "3 C:\Program Files\HI-TECH Software\PICC\9.83\sources\rand.c
 [v _randx `l  1 s 4 randx ]
@@ -212,7 +212,7 @@
 "7 C:\projects-hg\christmasornament2011\code\main.c
 [v _currentMode `uc  1 e 1 0 ]
 "8
-[v _softwareTimer `uc  1 e 1 0 ]
+[v _softwareTimer `ui  1 e 2 0 ]
 "9
 [v _displayState `uc  1 e 1 0 ]
 "10
@@ -222,11 +222,15 @@
 "12
 [v _inhibitModeChange `uc  1 e 1 0 ]
 "13
-[v _randomNum `i  1 e 2 0 ]
+[v _newPortB `uc  1 e 1 0 ]
+"14
+[v _newPortC `uc  1 e 1 0 ]
 "15
+[v _randomNum `i  1 e 2 0 ]
+"17
 [v _main `(v  1 e 0 0 ]
 {
-"191
+"200
 } 0
 "14 C:\Program Files\HI-TECH Software\PICC\9.83\sources\rand.c
 [v _rand `(i  1 e 2 0 ]

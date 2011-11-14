@@ -1,7 +1,7 @@
 
 
 HI-TECH Software PIC Macro Assembler V9.83 build 10920 
-                                                                                                           Sun Nov 13 23:50:01 2011
+                                                                                                           Mon Nov 14 00:30:12 2011
 
 
      1                           
@@ -69,7 +69,7 @@ HI-TECH Software PIC Macro Assembler V9.83 build 10920
 
 
 HI-TECH Software PICC Macro Assembler V9.83 build 10920 
-Symbol Table                                                                                               Sun Nov 13 23:50:01 2011
+Symbol Table                                                                                               Mon Nov 14 00:30:12 2011
 
-                 FSR 0004                 _main 0048                 _exit 0002                 start 0002  
+                 FSR 0004                 _main 0227                 _exit 0002                 start 0002  
 start_initialization 0004            reset_wrap 0000             reset_vec 03FF  
