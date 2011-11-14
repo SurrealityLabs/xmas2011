@@ -1,0 +1,251 @@
+[p LITE_MODE AUTOSTATIC PIC12 PICREGULAR ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F505 ]
+"82 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f505.h
+[s S31 . 1 `uc 1 C 1 0 :1:0 
+`uc 1 DC 1 0 :1:1 
+`uc 1 Z 1 0 :1:2 
+`uc 1 nPD 1 0 :1:3 
+`uc 1 nTO 1 0 :1:4 
+`uc 1 PA0 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 RBWUF 1 0 :1:7 
+]
+[u S40 . 1 `S31 1 . 1 0 ]
+"111
+[s S61 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CAL 1 0 :7:1 
+]
+[s S64 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CAL0 1 0 :1:1 
+`uc 1 CAL1 1 0 :1:2 
+`uc 1 CAL2 1 0 :1:3 
+`uc 1 CAL3 1 0 :1:4 
+`uc 1 CAL4 1 0 :1:5 
+`uc 1 CAL5 1 0 :1:6 
+`uc 1 CAL6 1 0 :1:7 
+]
+[u S73 . 1 `S61 1 . 1 0 `S64 1 . 1 0 ]
+"140
+[s S97 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+]
+[u S104 . 1 `S97 1 . 1 0 ]
+"163
+[s S122 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+]
+[u S129 . 1 `S122 1 . 1 0 ]
+"8 C:\Program Files\HI-TECH Software\PICC\9.83\sources\rand.c
+[v _srand `(v  1 e 0 0 ]
+"14
+[v _rand `(i  1 e 2 0 ]
+"5 C:\Program Files\HI-TECH Software\PICC\9.83\sources\abdiv.c
+[v ___abdiv `(c  1 e 1 0 ]
+"5 C:\Program Files\HI-TECH Software\PICC\9.83\sources\abmod.c
+[v ___abmod `(c  1 e 1 0 ]
+"34 C:\Program Files\HI-TECH Software\PICC\9.83\sources\abtoft.c
+[v ___abtoft `(f  1 e 3 0 ]
+"5 C:\Program Files\HI-TECH Software\PICC\9.83\sources\aldiv.c
+[v ___aldiv `(l  1 e 4 0 ]
+"5 C:\Program Files\HI-TECH Software\PICC\9.83\sources\almod.c
+[v ___almod `(l  1 e 4 0 ]
+"43 C:\Program Files\HI-TECH Software\PICC\9.83\sources\altoft.c
+[v ___altoft `(f  1 e 3 0 ]
+"5 C:\Program Files\HI-TECH Software\PICC\9.83\sources\atdiv.c
+[v ___atdiv `(m  1 e 3 0 ]
+"5 C:\Program Files\HI-TECH Software\PICC\9.83\sources\atmod.c
+[v ___atmod `(m  1 e 3 0 ]
+"38 C:\Program Files\HI-TECH Software\PICC\9.83\sources\attoft.c
+[v ___attoft `(f  1 e 3 0 ]
+"5 C:\Program Files\HI-TECH Software\PICC\9.83\sources\awdiv.c
+[v ___awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\HI-TECH Software\PICC\9.83\sources\awmod.c
+[v ___awmod `(i  1 e 2 0 ]
+"33 C:\Program Files\HI-TECH Software\PICC\9.83\sources\awtoft.c
+[v ___awtoft `(f  1 e 3 0 ]
+"3 C:\Program Files\HI-TECH Software\PICC\9.83\sources\bmul.c
+[v ___bmul `(uc  1 e 1 0 ]
+"63 C:\Program Files\HI-TECH Software\PICC\9.83\sources\float.c
+[v ___ftpack `(f  1 e 3 0 ]
+"87 C:\Program Files\HI-TECH Software\PICC\9.83\sources\ftadd.c
+[v ___ftadd `(f  1 e 3 0 ]
+"50 C:\Program Files\HI-TECH Software\PICC\9.83\sources\ftdiv.c
+[v ___ftdiv `(f  1 e 3 0 ]
+"5 C:\Program Files\HI-TECH Software\PICC\9.83\sources\ftge.c
+[v ___ftge `(b  1 e 0 0 ]
+"52 C:\Program Files\HI-TECH Software\PICC\9.83\sources\ftmul.c
+[v ___ftmul `(f  1 e 3 0 ]
+"16 C:\Program Files\HI-TECH Software\PICC\9.83\sources\ftneg.c
+[v ___ftneg `(f  1 e 3 0 ]
+"17 C:\Program Files\HI-TECH Software\PICC\9.83\sources\ftsub.c
+[v ___ftsub `(f  1 e 3 0 ]
+"45 C:\Program Files\HI-TECH Software\PICC\9.83\sources\fttol.c
+[v ___fttol `(l  1 e 4 0 ]
+"5 C:\Program Files\HI-TECH Software\PICC\9.83\sources\lbdiv.c
+[v ___lbdiv `(uc  1 e 1 0 ]
+"5 C:\Program Files\HI-TECH Software\PICC\9.83\sources\lbmod.c
+[v ___lbmod `(uc  1 e 1 0 ]
+"28 C:\Program Files\HI-TECH Software\PICC\9.83\sources\lbtoft.c
+[v ___lbtoft `(f  1 e 3 0 ]
+"5 C:\Program Files\HI-TECH Software\PICC\9.83\sources\lldiv.c
+[v ___lldiv `(ul  1 e 4 0 ]
+"5 C:\Program Files\HI-TECH Software\PICC\9.83\sources\llmod.c
+[v ___llmod `(ul  1 e 4 0 ]
+"36 C:\Program Files\HI-TECH Software\PICC\9.83\sources\lltoft.c
+[v ___lltoft `(f  1 e 3 0 ]
+"3 C:\Program Files\HI-TECH Software\PICC\9.83\sources\lmul.c
+[v ___lmul `(ul  1 e 4 0 ]
+"5 C:\Program Files\HI-TECH Software\PICC\9.83\sources\ltdiv.c
+[v ___ltdiv `(um  1 e 3 0 ]
+"5 C:\Program Files\HI-TECH Software\PICC\9.83\sources\ltmod.c
+[v ___ltmod `(um  1 e 3 0 ]
+"31 C:\Program Files\HI-TECH Software\PICC\9.83\sources\lttoft.c
+[v ___lttoft `(f  1 e 3 0 ]
+"5 C:\Program Files\HI-TECH Software\PICC\9.83\sources\lwdiv.c
+[v ___lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files\HI-TECH Software\PICC\9.83\sources\lwmod.c
+[v ___lwmod `(ui  1 e 2 0 ]
+"29 C:\Program Files\HI-TECH Software\PICC\9.83\sources\lwtoft.c
+[v ___lwtoft `(f  1 e 3 0 ]
+"3 C:\Program Files\HI-TECH Software\PICC\9.83\sources\tmul.c
+[v ___tmul `(um  1 e 3 0 ]
+"3 C:\Program Files\HI-TECH Software\PICC\9.83\sources\wmul.c
+[v ___wmul `(ui  1 e 2 0 ]
+"15 C:\projects-hg\christmasornament2011\code\main.c
+[v _main `(v  1 e 0 0 ]
+"3 C:\Program Files\HI-TECH Software\PICC\9.83\sources\rand.c
+[v _randx `l  1 s 4 randx ]
+"4
+[v _randf `uc  1 s 1 randf ]
+"59 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f505.h
+[v _OPTION `VWEuc  1 e 1 @0 ]
+"62
+[v _INDF `VEuc  1 e 1 @0 ]
+"66
+[v _TMR0 `VEuc  1 e 1 @1 ]
+"70
+[v _PCL `VEuc  1 e 1 @2 ]
+"74
+[v _STATUS `VEuc  1 e 1 @3 ]
+"76
+[v _CARRY `VEb  1 e 0 @24 ]
+"77
+[v _DC `VEb  1 e 0 @25 ]
+"78
+[v _ZERO `VEb  1 e 0 @26 ]
+"79
+[v _nPD `VEb  1 e 0 @27 ]
+"80
+[v _nTO `VEb  1 e 0 @28 ]
+"81
+[v _PA0 `VEb  1 e 0 @29 ]
+"82
+[v _RBWUF `VEb  1 e 0 @31 ]
+"95
+[v _STATUSbits `VES40  1 e 1 @3 ]
+"99
+[v _FSR `VEuc  1 e 1 @4 ]
+"103
+[v _OSCCAL `VEuc  1 e 1 @5 ]
+"105
+[v _CAL0 `VEb  1 e 0 @41 ]
+"106
+[v _CAL1 `VEb  1 e 0 @42 ]
+"107
+[v _CAL2 `VEb  1 e 0 @43 ]
+"108
+[v _CAL3 `VEb  1 e 0 @44 ]
+"109
+[v _CAL4 `VEb  1 e 0 @45 ]
+"110
+[v _CAL5 `VEb  1 e 0 @46 ]
+"111
+[v _CAL6 `VEb  1 e 0 @47 ]
+"128
+[v _OSCCALbits `VES73  1 e 1 @5 ]
+"132
+[v _PORTB `VEuc  1 e 1 @6 ]
+"133
+[v _TRISB `VWEuc  1 e 1 @6 ]
+"135
+[v _RB0 `VEb  1 e 0 @48 ]
+"136
+[v _RB1 `VEb  1 e 0 @49 ]
+"137
+[v _RB2 `VEb  1 e 0 @50 ]
+"138
+[v _RB3 `VEb  1 e 0 @51 ]
+"139
+[v _RB4 `VEb  1 e 0 @52 ]
+"140
+[v _RB5 `VEb  1 e 0 @53 ]
+"151
+[v _PORTBbits `VES104  1 e 1 @6 ]
+"155
+[v _PORTC `VEuc  1 e 1 @7 ]
+"156
+[v _TRISC `VWEuc  1 e 1 @7 ]
+"158
+[v _RC0 `VEb  1 e 0 @56 ]
+"159
+[v _RC1 `VEb  1 e 0 @57 ]
+"160
+[v _RC2 `VEb  1 e 0 @58 ]
+"161
+[v _RC3 `VEb  1 e 0 @59 ]
+"162
+[v _RC4 `VEb  1 e 0 @60 ]
+"163
+[v _RC5 `VEb  1 e 0 @61 ]
+"174
+[v _PORTCbits `VES104  1 e 1 @7 ]
+"7 C:\projects-hg\christmasornament2011\code\main.c
+[v _currentMode `uc  1 e 1 0 ]
+"8
+[v _softwareTimer `uc  1 e 1 0 ]
+"9
+[v _displayState `uc  1 e 1 0 ]
+"10
+[v _scratchPad `uc  1 e 1 0 ]
+"11
+[v _switchState `uc  1 e 1 0 ]
+"12
+[v _inhibitModeChange `uc  1 e 1 0 ]
+"13
+[v _randomNum `i  1 e 2 0 ]
+"15
+[v _main `(v  1 e 0 0 ]
+{
+"191
+} 0
+"14 C:\Program Files\HI-TECH Software\PICC\9.83\sources\rand.c
+[v _rand `(i  1 e 2 0 ]
+{
+"18
+} 0
+"3 C:\Program Files\HI-TECH Software\PICC\9.83\sources\lmul.c
+[v ___lmul `(ul  1 e 4 0 ]
+{
+"4
+[v ___lmul@product `ul  1 a 4 9 ]
+"3
+[v ___lmul@multiplier `ul  1 p 4 0 ]
+[v ___lmul@multiplicand `ul  1 p 4 4 ]
+"13
+} 0
+"8 C:\Program Files\HI-TECH Software\PICC\9.83\sources\rand.c
+[v _srand `(v  1 e 0 0 ]
+{
+[v srand@x `ui  1 p 2 0 ]
+"11
+} 0

@@ -1,0 +1,5 @@
+_main: CODE, 72 0 440
+___lmul: CODE, 809 0 93
+_srand: CODE, 57 0 15
+_rand: CODE, 902 0 121
+Total: 669
